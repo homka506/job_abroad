@@ -3060,7 +3060,9 @@ button, .button {
   cursor: pointer; }
 
 .ba-intro {
-  background: #fff url(../img/bg_intro.jpg) 50% no-repeat/cover; }
+  background: #fff url(../img/bg_intro.jpg) 50% no-repeat; 
+background-size: cover;
+}
   .ba-intro__inner {
     padding: 145px 100px 600px 35px; }
 
